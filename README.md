@@ -65,7 +65,7 @@ The build should complete successfully, as it does with Nx v21.6.10.
 
 ## Actual Behavior
 
-Nx fails with a recursive call stack error during project graph construction, suggesting that `createProjectGraphAsync` is being called recursively within itself.
+Nx fails with a recursive call stack error during project graph construction, suggesting that `createProjectGraphAsync` is being called recursively somehow.
 
 ## Notes
 
